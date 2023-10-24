@@ -1,0 +1,59 @@
+p {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: lightgray;
+}
+h1 {
+    position: relative;
+    left: 180px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid black;
+    width: 48px;
+}
+
+#container {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+p {
+    font-size: 22px;
+    padding: 7px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+.price {
+    margin-left: 40px;
+}
+.details {
+    position: absolute;
+    right: 75px;
+}
+.item {
+    position: absolute;
+    left: 375px;
+}
+button {
+    position: absolute;
+    padding: 10px;
+    width: 175px;
+    left: 180px;
+}
+.darkMode {
+    background-color: black;
+    color: white;
+}
+p.darkMode {
+    background-color: #2a2727;
+}
+button.darkMode {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+h1.darkMode {
+    border-bottom: 2px solid white;
+}
